@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Contact Me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Julia Lidstrom</title>
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 	 <body>
@@ -21,21 +23,22 @@
 			</div>
 	 	</header>
 	 	<!-- Main content -->
+	  <div class="wrapper">
 	 	<div id="main-container" class="container">
 			<section class="main-section">
 				<h1>Contact</h1>
 				<form id="contact-form">
 					<ul>
 						<li>
-							<label for="name">Name</label> 
+							<label for="name" class="animated slideInRight">Name</label> 
 							<input type="text" name="name" id="name"  placeholder="John Smith" required="required"> 
 						</li>
 						<li>
-							<label for="email">Email</label> 
+							<label for="email" class="animated slideInRight">Email</label> 
 							<input type="text" name="email" id="email"  placeholder="example@gmail.com" required="required">
 						</li>
 						<li>
-							<label for="message">Message</label> 
+							<label for="message" class="animated slideInRight">Message</label> 
 							<textarea id="message" name= "message" required="required"></textarea>
 						</li>
 					</ul>
@@ -58,7 +61,9 @@
 					</a>
 				</div>
 			</section>
+				<div class="push"></div>
 		</div>
+	</div>
 		<!-- Footer -->
 		<footer>
 			<div class="container">
