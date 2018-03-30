@@ -45,7 +45,7 @@ input[type=submit]:hover {
 
 nav a:hover {
   color: #6DBDD6;
-  font-size: 20px
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
 }
